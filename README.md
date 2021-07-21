@@ -30,6 +30,20 @@ After successful installation use the following command to run the project:
 ```bash
   npm run
 ```
+
+## How to Change files to Git in the Terminal (Unix)
+
+```	cd into folder
+	git clone https://[insert username]:[insert password]@github.com/TechLabs-Dortmund/students-platform.git
+	git pull
+	git status
+	# copy files to the new "students-platform" folder
+	git status
+	git add .
+	git commit -m "insert message"
+	git push
+```
+
 ## Examples
 
 You can see a brief overview of how to use the main functionality below
@@ -48,11 +62,20 @@ function App() {
 - Additional browser support
 - Add more integrations
 
+
+## Contributors
+
+- [@patrickblf](https://github.com/patrickblf)
+- [@sara507](https://github.com/Sara507)
+- [@mk406](https://github.com/mk406)
+- [@dHoangBach](https://github.com/dHoangBach)
+- [@NJannasch](https://github.com/NJannasch)
+- [@TheMerphin](https://github.com/TheMerphin)
+
   
 ## Authors
 
 - [@bob](https://www.github.com/bob)
 - [@alice](https://www.github.com/alice)
 
-  
 
