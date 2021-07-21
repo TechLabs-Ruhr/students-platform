@@ -31,7 +31,7 @@ After successful installation use the following command to run the project:
   npm run
 ```
 
-## How to Change files to Git in the Terminal (Unix)
+## How to Change files to Git in the Terminal (Linux)
 
 ```	cd into folder
 	git clone https://[insert username]:[insert password]@github.com/TechLabs-Dortmund/students-platform.git
