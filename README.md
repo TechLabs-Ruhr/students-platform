@@ -6,6 +6,11 @@ You can search for groups via a filter function. For the platform, an account is
 
 In this repository, you will find initial implementations of the landing page, the chat function and backend for log in. A database based on mostly MySQL is also included.
 
+## Road Map
+Our project followed mostly the design thinking process. 
+Most of our work does not contain code since we only have reached the beginning of the implementation part in our project phase.
+To look further into our results, feel free to look at our Figma file.
+
 ## Draft design
 - [Figma main file](https://www.figma.com/file/fT4NbWfoZmmMpFSuUUv7R8/English-Version)
 
@@ -14,8 +19,8 @@ In this repository, you will find initial implementations of the landing page, t
 Chat component based on Microsoft Teams. It was made with React, a dedicated chat engine and HTML.
 More infos in folder.
 
-### Log In
-Log In Python backend script based on Flask. It is made to work with SQLite3.
+### Log-In
+Log-In Python backend script based on Flask. It is made to work with SQLite3.
 
 ### Database
 MySQL Python backend script. It contains basic functions for the user, group and membership relations.
