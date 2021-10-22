@@ -22,6 +22,9 @@ More infos in folder.
 ### Log-In
 Log-In Python backend script based on Flask. It is made to work with SQLite3.
 
+### Registration
+Registration Python backend script based on Django.
+
 ### Database
 MySQL Python backend script. It contains basic functions for the user, group and membership relations.
 
