@@ -8,7 +8,7 @@ In this repository, you will find initial implementations of the landing page, t
 
 ## Road Map
 Our project followed mostly the design thinking process. 
-Most of our work does not contain code since we only have reached the beginning of the implementation part in our project phase.
+Most of our work does only contain basic code since we only have reached the beginning of the implementation part in our project phase.
 To look further into our results, feel free to look at our Figma file.
 
 ## Draft design
@@ -16,17 +16,26 @@ To look further into our results, feel free to look at our Figma file.
 
 ## Components
 ### Chat
-Chat component based on Microsoft Teams. It was made with React, a dedicated chat engine and HTML.
-More infos in folder.
-
-### Log-In
-Log-In Python backend script based on Flask. It is made to work with SQLite3.
-
-### Registration
-Registration Python backend script based on Django.
+Chat component based on a Microsoft Teams clone built with [Chat Engine](https://chatengine.io/). It was made with React, a dedicated [chat engine](https://www.npmjs.com/package/react-chat-engine) and some HTML code.
+These models also provide interesting incentives to continue the project.
+For successful implementation, some libaries have to be implemented in the React project. 
+If necessary, look up the commands relevant to you in the documentation website.
+For the fictitious profile names and profile pictures we recommend [Robohash](https://robohash.org/).
 
 ### Database
-MySQL Python backend script. It contains basic functions for the user, group and membership relations.
+MySQL [Python](https://www.freecodecamp.org/news/connect-python-with-sql/) backend script. It contains basic functions for the user, group and membership relations.
+[Fast API scripts](https://fastapi.tiangolo.com/de/tutorial/) for insert and select included.
+Instructions can be found in the folder.
+
+### Filter
+Initial filter framework code based on Django.
+
+### Log-In
+Log-In Python backend scripts. One is based on Flask and made to work with SQLite3.
+Also a Django based version included (https://www.ordinarycoders.com/blog/article/django-user-register-login-logout).
+
+### Registration
+Registration Python backend script based on [Django](https://django-registration.readthedocs.io/en/2.0/quickstart.html) and it's [authentification](https://docs.djangoproject.com/en/3.2/topics/auth/customizing/).
 
 ## Contributors
 
