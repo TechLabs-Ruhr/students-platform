@@ -32,7 +32,7 @@ Initial filter framework code based on Django.
 
 ### Log-In
 Log-In Python backend scripts. One is based on Flask and made to work with SQLite3.
-Also a Django based version included (https://www.ordinarycoders.com/blog/article/django-user-register-login-logout).
+Also a [Django based version](https://www.ordinarycoders.com/blog/article/django-user-register-login-logout) included.
 
 ### Registration
 Registration Python backend script based on [Django](https://django-registration.readthedocs.io/en/2.0/quickstart.html) and it's [authentification](https://docs.djangoproject.com/en/3.2/topics/auth/customizing/).
