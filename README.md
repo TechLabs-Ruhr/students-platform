@@ -6,13 +6,21 @@ You can search for groups via a filter function. For the platform, an account is
 
 In this repository, you will find initial implementations of the landing page, the chat function and backend for log in. A database based on mostly MySQL is also included.
 
+## Setup and Run
+Our implementations were done in isolation. To test the components, you need to set each up separately.
+We tried to give instructions in the respective folder.
+
+Use git to download the project:
+git clone https://github.com/TechLabs-Dortmund/students-platform.git
+
+## Examples
+The design of our platform is made in [Figma]([Figma main file](https://www.figma.com/file/fT4NbWfoZmmMpFSuUUv7R8/English-Version)).
+We've uploaded the screenshots of the final version into figma-draft-v1.0. To see how it functions, feel free to try the protoype function in Figma.
+
 ## Road Map
 Our project followed mostly the design thinking process. 
 Most of our work does only contain basic code since we only have reached the beginning of the implementation part in our project phase.
 To look further into our results, feel free to look at our Figma file.
-
-## Draft design
-- [Figma main file](https://www.figma.com/file/fT4NbWfoZmmMpFSuUUv7R8/English-Version)
 
 ## Components
 ### Chat

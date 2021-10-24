@@ -1,0 +1,307 @@
+/***************************/
+/* HEADER */
+/***************************/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4.8rem;
+  background-color: #fff;
+}
+
+.logo {
+  height: 10rem;
+  border-radius: 9px;
+  padding: 1.0rem;
+}
+
+/***************************/
+/* NAVIGATION */
+/***************************/
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 4.5rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: block;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.2s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #d8a520;
+}
+
+.main-nav-link.login:link,
+.main-nav-link.login:visited {
+  color: #f0b723;
+}
+
+.main-nav-link.login:hover,
+.main-nav-link.login:active {
+  color: #d8a520;
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  padding: 1.0rem 2.4rem;
+  background-color: #fff;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: thin;
+  border-color: #E6E6E6;
+  color: #f0b723;
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+  background-color: #E6E6E6;
+}
+
+/***************************/
+/* HERO */
+/***************************/
+
+.section-hero {
+  background-color: #fcf1d3;
+  padding: 4.8rem 0 9.6rem 0;
+}
+
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+}
+
+.hero-img {
+  width: 100%;
+  border-radius: 9px;
+}
+
+/***************************/
+/* HOW IT WORKS */
+/***************************/
+
+.section-how {
+  padding: 9.6rem 0;
+}
+
+.step-number {
+  font-size: 8.6rem;
+  font-weight: 600;
+  color: #ddd;
+  margin-bottom: 1.2rem;
+}
+
+.step-description {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+
+.step-img-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.step-img-box::before,
+.step-img-box::after {
+  content: "";
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(
+    -50%,
+    -50%
+  ); /* -50% ausgehend von seiner eigenen width und height*/
+}
+
+.step-img-box::before {
+  width: 80%;
+  padding-bottom: 80%; /* 60% of the parents elements width */
+  background-color: #fef8e9;
+  z-index: -2; /* um den Kreis hinter das img zu packen*/
+}
+
+.step-img-box::after {
+  width: 45%;
+  padding-bottom: 45%;
+  background-color: #fcf1d3;
+  z-index: -1;
+}
+
+.step-img {
+  width: 80%; /* 30% of the parent container*/
+}
+
+/***************************/
+/* HOW IT WORKS */
+/***************************/
+
+.techlabs {
+  padding: 9.6rem;
+}
+
+.techlabs-img {
+  height: 3.2rem;
+}
+
+.techlabs-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 3.2rem;
+}
+
+/***************************/
+/* About-Us */
+/***************************/
+
+.section-about-us {
+  background-color: #fcf1d3;
+  padding: 9.6rem;
+}
+
+.about-us {
+  display: grid; /* hier neues grid da die general auf größere Layouts bestimmt sind, hier mehr Sinn nochmal neues Grid zu machen*/
+  grid-template-columns: 1fr 1fr;
+  row-gap: 4.8rem;
+  column-gap: 8rem;
+}
+
+.team-img {
+  width: 6.4rem;
+  border-radius: 50%;
+  margin-bottom: 1.2rem;
+}
+
+.about-us-text {
+  font-size: 1.8rem;
+  line-height: 1.8; /* Line-height multipliziert die font-size mit line-height faktor, was dann die eigentlich line-height bilder*/
+  margin-bottom: 1.6rem;
+}
+
+.about-us-name {
+  font-size: 1.5rem;
+  line-height: 1.8; /* Line-height multipliziert die font-size mit line-height faktor, was dann die eigentlich line-height bilder*/
+  margin-bottom: 1.6rem;
+}
+
+/***************************/
+/* Features */
+/***************************/
+.section-features {
+  padding: 9.6rem 0;
+  background-color: #fcf1d3;
+}
+
+.feature-icon {
+  color: #f0b723;
+  background-color: #fcf1d3;
+  height: 3.2rem;
+  width: 3.2rem;
+  margin-bottom: 3.2rem;
+  padding: 1.6rem;
+  border-radius: 50%;
+}
+
+.feature-title {
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+}
+
+.feature-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+
+/***************************/
+/* FOOTER */
+/***************************/
+
+.footer {
+  padding: 12.8rem 0;
+  border-top: 1px solid #eee;
+}
+
+.grid--footer {
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+}
+
+.logo-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo {
+  display: block;
+  margin-bottom: 3.2rem;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 2.4rem;
+}
+
+.social-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+.copyright {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  color: #767676;
+  margin-top: auto; /* funktioniert, da wir logo-col zum flexcontainer gemacht haben und somit automatisch margin angepasst wird WICHTIG!!!!*/
+}
+
+.footer-heading {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 4rem;
+}
+
+.contacts {
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+.adress {
+  margin-bottom: 2.4rem;
+}
+
+.footer-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #767676;
+  transition: all 0.3s;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #555;
+}
