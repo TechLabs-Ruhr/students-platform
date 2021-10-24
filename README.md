@@ -5,6 +5,7 @@ Study groups are meant to be chatrooms with specific information: Group name, de
 You can search for groups via a filter function. For the platform, an account is needed to join groups.
 
 In this repository, you will find initial implementations of the landing page, the chat function and backend for log in. A database based on mostly MySQL is also included.
+We included screenshots of our work and also a brief summary of our [survey](https://umfragen.tu-dortmund.de/index.php/188353?lang=de).
 
 ## Setup and Run
 Our implementations were done in isolation. To test the components, you need to set each up separately.
@@ -38,6 +39,9 @@ Instructions can be found in the folder.
 ### Filter
 Initial filter framework code based on Django.
 
+### Landing Page
+HTML and CSS code for our landing page. Use the index.html file to take a look in your browser.
+
 ### Log-In
 Log-In Python backend scripts. One is based on Flask and made to work with SQLite3.
 Also a [Django based version](https://www.ordinarycoders.com/blog/article/django-user-register-login-logout) included.
@@ -51,6 +55,7 @@ Registration Python backend script based on [Django](https://django-registration
 - [@sara507](https://github.com/Sara507)
 - [@dHoangBach](https://github.com/dHoangBach)
 - [@SaskiaO96](https://github.com/SaskiaO96)
+- [@Hendrik432](https://github.com/Hendrik432)
 
 ## Organization and Mentors
 - [@NJannasch](https://github.com/NJannasch)
